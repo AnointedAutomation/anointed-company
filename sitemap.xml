@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://anointed.company/</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://anointed.company/attire-mark.png</image:loc>
+      <image:title>Anointed Attire &amp; Apparel</image:title>
+      <image:caption>Faith-rooted streetwear, made to order.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://anointed.company/automation-mark.png</image:loc>
+      <image:title>Anointed Automation</image:title>
+      <image:caption>Custom integrations, automations, and development consulting.</image:caption>
+    </image:image>
   </url>
 </urlset>

@@ -1,0 +1,41 @@
+{
+  "name": "Anointed",
+  "url": "https://anointed.company",
+  "description": "Umbrella landing page for the two ventures of Alexander Fields: Anointed Attire & Apparel (faith-rooted streetwear) and Anointed Automation (custom software consulting). This site itself is a one-page portal — visitors are directed to the venture sites for shopping or services.",
+  "owner": {
+    "name": "Alexander Fields",
+    "website": "https://www.alexanderfields.me",
+    "contact": "https://www.alexanderfields.me/contact"
+  },
+  "ventures": [
+    {
+      "name": "Anointed Attire & Apparel",
+      "category": "Clothing",
+      "url": "https://anointedattireapparel.com",
+      "description": "Faith-rooted streetwear, made to order. Hats, hoodies, and tees.",
+      "tags": ["clothing", "streetwear", "apparel", "faith", "made-to-order"]
+    },
+    {
+      "name": "Anointed Automation",
+      "category": "Software Consulting",
+      "url": "https://anointedautomation.net",
+      "description": "Custom integrations, automations, and development consulting for small businesses.",
+      "tags": ["software", "consulting", "automation", "integrations", "development", "small-business"]
+    }
+  ],
+  "portal_links": [
+    {
+      "title": "Anointed Attire & Apparel — Visit Shop",
+      "url": "https://anointedattireapparel.com",
+      "type": "external"
+    },
+    {
+      "title": "Anointed Automation — Visit Site",
+      "url": "https://anointedautomation.net",
+      "type": "external"
+    }
+  ],
+  "sitemap": "https://anointed.company/sitemap.xml",
+  "last_updated": "2026-05-20",
+  "ai_usage_policy": "This site is a public landing page. Indexing, summarization, and citation are welcome. Please link back to https://anointed.company when referencing."
+}

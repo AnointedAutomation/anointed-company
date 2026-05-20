@@ -1,4 +1,11 @@
+# Robots.txt for anointed.company
+# Umbrella landing for Anointed Attire & Apparel and Anointed Automation.
+
 User-agent: *
 Allow: /
 
+# Sitemap
 Sitemap: https://anointed.company/sitemap.xml
+
+# AI / LLM agents — see llms.json for a structured description of the site.
+# https://anointed.company/llms.json
