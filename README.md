@@ -20,4 +20,3 @@ This is a static HTML page. To make changes:
 - `CNAME` — pins the custom domain `anointed.company`
 - `404.html` — error page
 - `robots.txt` — search crawler policy
-- `docs/superpowers/` — spec and implementation plan from initial build
