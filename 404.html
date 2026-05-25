@@ -3,47 +3,310 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Not found — Anointed</title>
+  <title>404 - Page Not Found | Anointed Automation LLC</title>
   <link rel="icon" type="image/png" href="automation-mark.png">
   <style>
     html, body { margin: 0; padding: 0; }
-    body {
+
+    .aaa-404-page {
       min-height: 100vh;
-      background: radial-gradient(ellipse at top, #1a1a1f, #0a0a0d);
-      color: #f4e9d2;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: linear-gradient(135deg, #111827 0%, #581c87 50%, #111827 100%);
       display: flex;
-      flex-direction: column;
       align-items: center;
       justify-content: center;
+      padding: 1rem;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
+    .aaa-404-container {
+      max-width: 42rem;
+      width: 100%;
+    }
+
+    .aaa-404-header {
       text-align: center;
-      padding: 24px;
+      margin-bottom: 2rem;
     }
-    h1 {
-      font-family: Georgia, serif;
-      font-size: 48px;
-      font-weight: 300;
-      margin: 0 0 8px;
-      letter-spacing: -1px;
+
+    .aaa-404-title {
+      font-size: 6rem;
+      font-weight: 700;
+      background: linear-gradient(90deg, #a855f7, #ec4899, #ef4444);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 1rem;
+      line-height: 1;
     }
-    .rule { width: 48px; height: 1px; background: #c9a96e; margin: 20px auto; }
-    p { color: #a89878; font-size: 14px; margin: 0 0 28px; }
-    a {
-      display: inline-block;
-      border: 1px solid #c9a96e;
-      color: #f4e9d2;
-      padding: 12px 26px;
-      font-size: 11px;
-      letter-spacing: 2px;
+
+    .aaa-404-subtitle {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #ffffff;
+      margin-bottom: 0.5rem;
+    }
+
+    .aaa-404-description {
+      color: #9ca3af;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    .aaa-404-card {
+      background: rgba(31, 41, 55, 0.5);
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(147, 51, 234, 0.3);
+      border-radius: 0.75rem;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    }
+
+    .aaa-404-card-title {
+      font-size: 1.125rem;
+      font-weight: 600;
+      color: #a855f7;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .aaa-404-cross {
+      font-size: 1.5rem;
+    }
+
+    .aaa-404-card-content {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .aaa-404-badges,
+    .aaa-404-trinity-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .aaa-404-badge {
+      padding: 0.25rem 0.75rem;
+      border-radius: 9999px;
+      font-size: 0.875rem;
+      font-weight: 500;
+    }
+
+    .aaa-404-badge--purple {
+      background: rgba(147, 51, 234, 0.3);
+      border: 1px solid rgba(147, 51, 234, 0.5);
+      color: #d8b4fe;
+    }
+
+    .aaa-404-badge--blue {
+      background: rgba(37, 99, 235, 0.2);
+      border: 1px solid rgba(59, 130, 246, 0.3);
+      color: #93c5fd;
+      font-size: 0.75rem;
+      padding: 0.125rem 0.5rem;
+    }
+
+    .aaa-404-trinity {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+
+    .aaa-404-label {
+      color: #6b7280;
+      font-size: 0.875rem;
+    }
+
+    .aaa-404-automation {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+
+    .aaa-404-code {
+      display: block;
+      color: #4ade80;
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+      font-size: 0.875rem;
+      background: rgba(17, 24, 39, 0.5);
+      padding: 0.5rem 0.75rem;
+      border-radius: 0.25rem;
+    }
+
+    .aaa-404-links {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 0.75rem;
+      padding-top: 0.5rem;
+    }
+
+    @media (min-width: 640px) {
+      .aaa-404-links {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .aaa-404-link {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.875rem;
       text-decoration: none;
+      transition: color 0.2s ease;
     }
-    a:hover { background: #c9a96e; color: #0a0a0d; }
+
+    .aaa-404-link--pink {
+      color: #f472b6;
+    }
+
+    .aaa-404-link--pink:hover {
+      color: #f9a8d4;
+    }
+
+    .aaa-404-link--yellow {
+      color: #facc15;
+    }
+
+    .aaa-404-link--yellow:hover {
+      color: #fde047;
+    }
+
+    .aaa-404-navigation {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      justify-content: center;
+    }
+
+    @media (min-width: 640px) {
+      .aaa-404-navigation {
+        flex-direction: row;
+      }
+    }
+
+    .aaa-404-btn {
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.5rem;
+      font-weight: 500;
+      text-decoration: none;
+      text-align: center;
+      transition: background-color 0.2s ease;
+    }
+
+    .aaa-404-btn--primary {
+      background: #9333ea;
+      color: #ffffff;
+    }
+
+    .aaa-404-btn--primary:hover {
+      background: #7c3aed;
+    }
+
+    .aaa-404-btn--secondary {
+      background: #374151;
+      color: #ffffff;
+    }
+
+    .aaa-404-btn--secondary:hover {
+      background: #4b5563;
+    }
+
+    .aaa-404-copyright {
+      text-align: center;
+      color: #4b5563;
+      font-size: 0.875rem;
+      margin-top: 2rem;
+    }
+
+    .aaa-404-copyright a {
+      color: #6b7280;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    .aaa-404-copyright a:hover {
+      color: #9ca3af;
+    }
+
+    @media (max-width: 640px) {
+      .aaa-404-title {
+        font-size: 4rem;
+      }
+
+      .aaa-404-subtitle {
+        font-size: 1.25rem;
+      }
+
+      .aaa-404-card {
+        padding: 1rem;
+      }
+    }
   </style>
 </head>
 <body>
-  <h1>404</h1>
-  <div class="rule"></div>
-  <p>That page doesn't live here.</p>
-  <a href="/">RETURN HOME &rarr;</a>
+  <div class="aaa-404-page">
+    <div class="aaa-404-container">
+      <div class="aaa-404-header">
+        <h1 class="aaa-404-title">404</h1>
+        <h2 class="aaa-404-subtitle">Page Not Found</h2>
+        <p class="aaa-404-description">
+          Page was not found, but Jesus can easily be found. The page you're looking for doesn't exist or has been moved.
+        </p>
+      </div>
+
+      <div class="aaa-404-card">
+        <h3 class="aaa-404-card-title">
+          <span class="aaa-404-cross">&#10013;</span>
+          Anointed Message
+        </h3>
+
+        <div class="aaa-404-card-content">
+          <div class="aaa-404-badges">
+            <span class="aaa-404-badge aaa-404-badge--purple">Jesus is King</span>
+            <span class="aaa-404-badge aaa-404-badge--purple">Jesus is Messiah</span>
+          </div>
+
+          <div class="aaa-404-trinity">
+            <span class="aaa-404-label">Trinity:</span>
+            <div class="aaa-404-trinity-badges">
+              <span class="aaa-404-badge aaa-404-badge--blue">Father</span>
+              <span class="aaa-404-badge aaa-404-badge--blue">Son</span>
+              <span class="aaa-404-badge aaa-404-badge--blue">Holy Ghost/Spirit</span>
+            </div>
+          </div>
+
+          <div class="aaa-404-automation">
+            <span class="aaa-404-label">Automation:</span>
+            <code class="aaa-404-code">0x4A65737573206973204B696E67</code>
+          </div>
+
+          <div class="aaa-404-links">
+            <a href="https://www.anointedattireapparel.com" target="_blank" rel="noopener noreferrer" class="aaa-404-link aaa-404-link--pink">
+              <span>&#128085;</span>
+              <span>Anointed Attire Apparel</span>
+            </a>
+            <a href="https://berich.org/" target="_blank" rel="noopener noreferrer" class="aaa-404-link aaa-404-link--yellow">
+              <span>&#128155;</span>
+              <span>Be Rich Charity</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="aaa-404-navigation">
+        <a href="https://anointed.company" class="aaa-404-btn aaa-404-btn--primary">
+          Go to Homepage
+        </a>
+      </div>
+
+      <p class="aaa-404-copyright">
+        &copy; 2026 <a href="https://www.alexanderfields.me" target="_blank" rel="noopener noreferrer">Alexander Fields</a>. All Rights Reserved.
+      </p>
+    </div>
+  </div>
 </body>
 </html>
