@@ -1,5 +1,7 @@
 # anointed.company
 
+Jesus is King ✝️
+
 Umbrella landing page for the two ventures of Alexander Fields:
 
 - [Anointed Attire & Apparel](https://anointedattireapparel.com) — clothing
