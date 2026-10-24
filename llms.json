@@ -79,7 +79,7 @@
     },
     "nuget_profile": "https://www.nuget.org/profiles/roku674",
     "authoritative_machine_readable": "https://github.com/AnointedAutomation/AnointedAutomation/blob/master/llms.json",
-    "publish_status_note": "Registry availability (npm, PyPI, Packagist, Maven) varies per package and changes; the repository llms.json is authoritative.",
+    "publish_status_note": "All Sign in with Anointed Automation kits are published: NuGet, npm, PyPI, Packagist, Maven Central and Swift Package Manager (git tag). The repository llms.json is authoritative for versions.",
     "nuget_packages": [
       {
         "id": "AnointedAutomation.Algorithms",
@@ -219,18 +219,20 @@
       {
         "id": "@anointedautomation/sso",
         "ecosystem": "npm",
-        "version": "0.1.0",
+        "version": "0.2.4",
         "description": "Sign in with Anointed Automation: a dependency-free, server-only OpenID Connect client (authorization code + PKCE S256, state, nonce, RS256 ID token validation via JWKS) with Express and Web (Next.js App Router, Base44, Workers) adapters.",
         "source": "https://github.com/AnointedAutomation/AnointedAutomation/tree/master/js/anointed-sso",
-        "registry": "https://www.npmjs.com/package/@anointedautomation/sso"
+        "registry": "https://www.npmjs.com/package/@anointedautomation/sso",
+        "install": "npm install @anointedautomation/sso"
       },
       {
         "id": "@anointedautomation/sso-react",
         "ecosystem": "npm",
-        "version": "0.1.0",
+        "version": "0.1.1",
         "description": "React companion for Sign in with Anointed Automation: an accessible sign-in button and a useAnointedSignIn hook that navigate the browser to the partner server's start route. No secrets client side.",
         "source": "https://github.com/AnointedAutomation/AnointedAutomation/tree/master/js/anointed-sso-react",
-        "registry": "https://www.npmjs.com/package/@anointedautomation/sso-react"
+        "registry": "https://www.npmjs.com/package/@anointedautomation/sso-react",
+        "install": "npm install @anointedautomation/sso-react"
       },
       {
         "id": "@anointedautomation/sso-next",
@@ -238,7 +240,8 @@
         "version": "0.1.0",
         "description": "Next.js App Router start, callback and back-channel logout route handlers built on @anointedautomation/sso.",
         "source": "https://github.com/AnointedAutomation/AnointedAutomation/tree/master/js/anointed-sso-next",
-        "registry": "https://www.npmjs.com/package/@anointedautomation/sso-next"
+        "registry": "https://www.npmjs.com/package/@anointedautomation/sso-next",
+        "install": "npm install @anointedautomation/sso-next"
       },
       {
         "id": "@anointedautomation/sso-vue",
@@ -246,7 +249,8 @@
         "version": "0.1.0",
         "description": "Vue 3 sign-in button and useAnointedSignIn composable that send the browser to the partner server's start route. No secrets client side.",
         "source": "https://github.com/AnointedAutomation/AnointedAutomation/tree/master/js/anointed-sso-vue",
-        "registry": "https://www.npmjs.com/package/@anointedautomation/sso-vue"
+        "registry": "https://www.npmjs.com/package/@anointedautomation/sso-vue",
+        "install": "npm install @anointedautomation/sso-vue"
       },
       {
         "id": "@anointedautomation/sso-nuxt",
@@ -254,7 +258,8 @@
         "version": "0.1.0",
         "description": "Nuxt server routes (start, callback, logout, back-channel logout) built on @anointedautomation/sso. Server only.",
         "source": "https://github.com/AnointedAutomation/AnointedAutomation/tree/master/js/anointed-sso-nuxt",
-        "registry": "https://www.npmjs.com/package/@anointedautomation/sso-nuxt"
+        "registry": "https://www.npmjs.com/package/@anointedautomation/sso-nuxt",
+        "install": "npm install @anointedautomation/sso-nuxt"
       },
       {
         "id": "@anointedautomation/sso-angular",
@@ -262,7 +267,8 @@
         "version": "0.1.0",
         "description": "Angular standalone sign-in button, AnointedSignInService and provideAnointedSignIn() that send the browser to the partner server's start route. No secrets client side.",
         "source": "https://github.com/AnointedAutomation/AnointedAutomation/tree/master/js/anointed-sso-angular",
-        "registry": "https://www.npmjs.com/package/@anointedautomation/sso-angular"
+        "registry": "https://www.npmjs.com/package/@anointedautomation/sso-angular",
+        "install": "npm install @anointedautomation/sso-angular"
       },
       {
         "id": "@anointedautomation/sso-sveltekit",
@@ -270,7 +276,8 @@
         "version": "0.1.0",
         "description": "SvelteKit start, callback, logout and back-channel logout handlers (handle hook or +server.js) built on @anointedautomation/sso, plus a sign-in button (./client).",
         "source": "https://github.com/AnointedAutomation/AnointedAutomation/tree/master/js/anointed-sso-sveltekit",
-        "registry": "https://www.npmjs.com/package/@anointedautomation/sso-sveltekit"
+        "registry": "https://www.npmjs.com/package/@anointedautomation/sso-sveltekit",
+        "install": "npm install @anointedautomation/sso-sveltekit"
       },
       {
         "id": "@anointedautomation/sso-react-native",
@@ -278,7 +285,8 @@
         "version": "0.1.0",
         "description": "React Native and Expo sign-in button and useAnointedSignIn hook: open the partner server's start route in a system auth session and read the deep-link callback. No secrets in the app.",
         "source": "https://github.com/AnointedAutomation/AnointedAutomation/tree/master/js/anointed-sso-react-native",
-        "registry": "https://www.npmjs.com/package/@anointedautomation/sso-react-native"
+        "registry": "https://www.npmjs.com/package/@anointedautomation/sso-react-native",
+        "install": "npm install @anointedautomation/sso-react-native"
       },
       {
         "id": "anointedautomation-sso",
@@ -286,27 +294,34 @@
         "version": "0.1.0",
         "description": "Server-side OpenID Connect kit (code + PKCE) for Python with Django, FastAPI/Starlette and Flask adapters, back-channel logout and a session status client.",
         "source": "https://github.com/AnointedAutomation/AnointedAutomation/tree/master/python/anointed-sso",
-        "registry": "https://pypi.org/project/anointedautomation-sso/"
+        "registry": "https://pypi.org/project/anointedautomation-sso/",
+        "install": "pip install anointedautomation-sso"
       },
       {
         "id": "anointedautomation/sso",
         "ecosystem": "Packagist",
         "description": "Sign in with Anointed Automation for PHP and Laravel: code + PKCE S256, ID token verification, logout and back-channel logout.",
         "source": "https://github.com/AnointedAutomation/AnointedAutomation/tree/master/php/anointed-sso",
-        "registry": "https://packagist.org/packages/anointedautomation/sso"
+        "registry": "https://packagist.org/packages/anointedautomation/sso",
+        "version": "0.1.1",
+        "install": "composer require anointedautomation/sso"
       },
       {
         "id": "AnointedSSO",
         "ecosystem": "Swift Package Manager",
-        "version": "0.1.0",
+        "version": "0.1.1",
         "description": "Sign in with Anointed Automation for iOS and macOS apps: opens the partner's own server start route in ASWebAuthenticationSession; the server (using @anointedautomation/sso) keeps the client secret and redirects back. State check and SwiftUI button included.",
-        "source": "https://github.com/AnointedAutomation/AnointedAutomation/tree/master/swift/AnointedSSO"
+        "source": "https://github.com/AnointedAutomation/AnointedAutomation/tree/master/swift/AnointedSSO",
+        "install": ".package(url: \"https://github.com/AnointedAutomation/AnointedAutomation\", from: \"0.1.1\")"
       },
       {
         "id": "com.anointedautomation:anointedsso",
         "ecosystem": "Android (Maven)",
         "description": "Sign in with Anointed Automation for Android 7.0+ (Kotlin, Custom Tabs, Compose button). The app opens the partner's own server start route; the server keeps the client secret.",
-        "source": "https://github.com/AnointedAutomation/AnointedAutomation/tree/master/android/AnointedSSO"
+        "source": "https://github.com/AnointedAutomation/AnointedAutomation/tree/master/android/AnointedSSO",
+        "version": "0.1.1",
+        "install": "implementation(\"com.anointedautomation:anointedsso:0.1.1\")",
+        "registry": "https://central.sonatype.com/artifact/com.anointedautomation/anointedsso"
       }
     ]
   },

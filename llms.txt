@@ -53,9 +53,9 @@ Machine-readable version: https://anointed.company/llms.json
 - [anointedautomation-sso](https://pypi.org/project/anointedautomation-sso/) (PyPI): Server-side OpenID Connect kit (code + PKCE) for Python with Django, FastAPI/Starlette and Flask adapters, back-channel logout and a session status client.
 - [anointedautomation/sso](https://packagist.org/packages/anointedautomation/sso) (Packagist): Sign in with Anointed Automation for PHP and Laravel: code + PKCE S256, ID token verification, logout and back-channel logout.
 - [AnointedSSO](https://github.com/AnointedAutomation/AnointedAutomation/tree/master/swift/AnointedSSO) (Swift Package Manager): Sign in with Anointed Automation for iOS and macOS apps: opens the partner's own server start route in ASWebAuthenticationSession; the server (using @anointedautomation/sso) keeps the client secret and redirects back. State check and SwiftUI button included.
-- [com.anointedautomation:anointedsso](https://github.com/AnointedAutomation/AnointedAutomation/tree/master/android/AnointedSSO) (Android (Maven)): Sign in with Anointed Automation for Android 7.0+ (Kotlin, Custom Tabs, Compose button). The app opens the partner's own server start route; the server keeps the client secret.
+- [com.anointedautomation:anointedsso](https://central.sonatype.com/artifact/com.anointedautomation/anointedsso) (Maven Central): Sign in with Anointed Automation for Android 7.0+ (Kotlin, Custom Tabs, Compose button). The app opens the partner's own server start route; the server keeps the client secret.
 
-Registry availability varies per package; the repository llms.json is authoritative.
+All kits are published: NuGet, npm, PyPI, Packagist, Maven Central (com.anointedautomation:anointedsso 0.1.1) and Swift Package Manager (git tag 0.1.1). The repository llms.json is authoritative for versions.
 
 ## Policy
 
