@@ -1,7 +1,7 @@
 {
   "name": "Anointed",
   "url": "https://anointed.company",
-  "description": "Umbrella landing page for the two ventures of Alexander Fields: Anointed Attire & Apparel (faith-rooted streetwear) and Anointed Automation (custom software consulting). This site itself is a one-page portal — visitors are directed to the venture sites for shopping or services.",
+  "description": "Umbrella landing page for the ventures of Alexander Fields: Anointed Online Store (Christian apparel and gifts) and Anointed Automation (custom software consulting and open-source developer libraries). This site is a one-page portal; visitors are directed to the venture sites for shopping, services and developer docs.",
   "owner": {
     "name": "Alexander Fields",
     "website": "https://www.alexanderfields.me",
@@ -9,33 +9,321 @@
   },
   "ventures": [
     {
-      "name": "Anointed Attire & Apparel",
-      "category": "Clothing",
+      "name": "Anointed Online Store",
+      "category": "Online Store",
       "url": "https://anointedattireapparel.com",
-      "description": "Faith-rooted streetwear, made to order. Hats, hoodies, and tees.",
-      "tags": ["clothing", "streetwear", "apparel", "faith", "made-to-order"]
+      "description": "Faith-rooted apparel and gifts: streetwear, hats, hoodies, tees and more, made to order.",
+      "tags": [
+        "online store",
+        "apparel",
+        "gifts",
+        "streetwear",
+        "faith",
+        "made-to-order"
+      ]
     },
     {
       "name": "Anointed Automation",
       "category": "Software Consulting",
       "url": "https://anointedautomation.net",
-      "description": "Custom integrations, automations, and development consulting for small businesses.",
-      "tags": ["software", "consulting", "automation", "integrations", "development", "small-business"]
+      "description": "Custom integrations, automations and development consulting for small businesses, plus open-source SDKs and Sign in with Anointed Automation kits.",
+      "tags": [
+        "software",
+        "consulting",
+        "automation",
+        "integrations",
+        "development",
+        "small-business",
+        "open-source",
+        "sso",
+        "sdk"
+      ]
     }
   ],
   "portal_links": [
     {
-      "title": "Anointed Attire & Apparel — Visit Shop",
+      "title": "Anointed Online Store - Visit Shop",
       "url": "https://anointedattireapparel.com",
       "type": "external"
     },
     {
-      "title": "Anointed Automation — Visit Site",
+      "title": "Anointed Automation - Visit Site",
       "url": "https://anointedautomation.net",
+      "type": "external"
+    },
+    {
+      "title": "Open source developer libraries",
+      "url": "https://www.anointedautomation.net/open-source",
+      "type": "external"
+    },
+    {
+      "title": "Sign in with Anointed Automation (developer sign-in)",
+      "url": "https://www.anointedautomation.net/developers/sign-in",
+      "type": "external"
+    },
+    {
+      "title": "Open source repository on GitHub",
+      "url": "https://github.com/AnointedAutomation/AnointedAutomation",
       "type": "external"
     }
   ],
   "sitemap": "https://anointed.company/sitemap.xml",
-  "last_updated": "2026-05-20",
-  "ai_usage_policy": "This site is a public landing page. Indexing, summarization, and citation are welcome. Please link back to https://anointed.company when referencing."
+  "last_updated": "2026-10-24",
+  "ai_usage_policy": "This site is a public landing page. Indexing, summarization, and citation are welcome. Please link back to https://anointed.company when referencing.",
+  "open_source": {
+    "summary": "Open-source libraries by Anointed Automation, LLC (MIT): .NET NuGet packages, dotnet new templates, and Sign in with Anointed Automation kits for web, mobile and server stacks. Jesus is King.",
+    "repository": "https://github.com/AnointedAutomation/AnointedAutomation",
+    "developer_pages": {
+      "open_source": "https://www.anointedautomation.net/open-source",
+      "sign_in": "https://www.anointedautomation.net/developers/sign-in"
+    },
+    "nuget_profile": "https://www.nuget.org/profiles/roku674",
+    "authoritative_machine_readable": "https://github.com/AnointedAutomation/AnointedAutomation/blob/master/llms.json",
+    "publish_status_note": "All Sign in with Anointed Automation kits are published: NuGet, npm, PyPI, Packagist, Maven Central and Swift Package Manager (git tag). The repository llms.json is authoritative for versions.",
+    "nuget_packages": [
+      {
+        "id": "AnointedAutomation.Algorithms",
+        "version": "1.0.3",
+        "description": "Algorithms for .NET with no dependencies, starting with a pure C# QR code encoder (ISO/IEC 18004) with Reed-Solomon error correction and automatic version and mask selection.",
+        "url": "https://www.nuget.org/packages/AnointedAutomation.Algorithms",
+        "install": "dotnet add package AnointedAutomation.Algorithms"
+      },
+      {
+        "id": "AnointedAutomation.APIMiddlewares",
+        "version": "1.0.7",
+        "description": "ASP.NET Core middleware and filters for API key authentication, IP blacklisting, invalid endpoint tracking and idle time memory cleanup.",
+        "url": "https://www.nuget.org/packages/AnointedAutomation.APIMiddlewares",
+        "install": "dotnet add package AnointedAutomation.APIMiddlewares"
+      },
+      {
+        "id": "AnointedAutomation.Concepts",
+        "version": "1.1.0",
+        "description": "Models Biblical concepts as .NET types: love as a behavior tree, a moral reality that reads acts against God's character, and an epistemics engine that checks claims for consistency.",
+        "url": "https://www.nuget.org/packages/AnointedAutomation.Concepts",
+        "install": "dotnet add package AnointedAutomation.Concepts"
+      },
+      {
+        "id": "AnointedAutomation.Enums",
+        "version": "1.0.5",
+        "description": "Shared enumerations for AnointedAutomation packages: payment types, providers, transaction and subscription statuses, payment operations, card types, webhook events, and moderation categories.",
+        "url": "https://www.nuget.org/packages/AnointedAutomation.Enums",
+        "install": "dotnet add package AnointedAutomation.Enums"
+      },
+      {
+        "id": "AnointedAutomation.Imaging",
+        "version": "1.0.3",
+        "description": "Renders QR codes from AnointedAutomation.Algorithms to SVG and PNG using only the .NET base class library, with no third party image dependency.",
+        "url": "https://www.nuget.org/packages/AnointedAutomation.Imaging",
+        "install": "dotnet add package AnointedAutomation.Imaging"
+      },
+      {
+        "id": "AnointedAutomation.Logging",
+        "version": "1.0.4",
+        "description": "A lightweight log message model with severity levels, automatic caller detection and a static LogAdded event for routing logs.",
+        "url": "https://www.nuget.org/packages/AnointedAutomation.Logging",
+        "install": "dotnet add package AnointedAutomation.Logging"
+      },
+      {
+        "id": "AnointedAutomation.Mathematics",
+        "version": "1.0.3",
+        "description": "A curated catalog of laws, theories, and conjectures from logic, mathematics, physics, and chemistry, modeled as foundational claims for the AnointedAutomation.Concepts epistemics engine.",
+        "url": "https://www.nuget.org/packages/AnointedAutomation.Mathematics",
+        "install": "dotnet add package AnointedAutomation.Mathematics"
+      },
+      {
+        "id": "AnointedAutomation.Memory",
+        "version": "1.0.5",
+        "description": "On demand garbage collection helper that forces a full collection and tries to return unused memory to the operating system.",
+        "url": "https://www.nuget.org/packages/AnointedAutomation.Memory",
+        "install": "dotnet add package AnointedAutomation.Memory"
+      },
+      {
+        "id": "AnointedAutomation.Objects",
+        "version": "2.4.0",
+        "description": "Plain POCO models for user accounts, billing and payments, single sign-on identities (Google, Microsoft, Apple, Facebook, Shopify), and standard API response envelopes.",
+        "url": "https://www.nuget.org/packages/AnointedAutomation.Objects",
+        "install": "dotnet add package AnointedAutomation.Objects"
+      },
+      {
+        "id": "AnointedAutomation.Objects.API",
+        "version": "1.3.0",
+        "description": "ASP.NET Core helpers: an in memory IFormFile, a hybrid casing System.Text.Json naming convention, and a GraphQL response envelope reader.",
+        "url": "https://www.nuget.org/packages/AnointedAutomation.Objects.API",
+        "install": "dotnet add package AnointedAutomation.Objects.API"
+      },
+      {
+        "id": "AnointedAutomation.Optimization",
+        "version": "1.0.1",
+        "description": "Reusable optimization utilities: CSV/DataTable/DataReader helpers, chunking, string helpers, Roman numerals, JSON flattening, file management, and null-safe JsonElement/BsonDocument field accessors.",
+        "url": "https://www.nuget.org/packages/AnointedAutomation.Optimization",
+        "install": "dotnet add package AnointedAutomation.Optimization"
+      },
+      {
+        "id": "AnointedAutomation.Repository.Mongo",
+        "version": "1.3.0",
+        "description": "A MongoDB helper and generic repository base for .NET, with CRUD, paging, aggregation, index management, BSON class maps and casing conventions.",
+        "url": "https://www.nuget.org/packages/AnointedAutomation.Repository.Mongo",
+        "install": "dotnet add package AnointedAutomation.Repository.Mongo"
+      },
+      {
+        "id": "AnointedAutomation.Repository.MySql",
+        "version": "1.0.5",
+        "description": "A generic repository and helper for MySQL over Entity Framework Core and the Pomelo provider.",
+        "url": "https://www.nuget.org/packages/AnointedAutomation.Repository.MySql",
+        "install": "dotnet add package AnointedAutomation.Repository.MySql"
+      },
+      {
+        "id": "AnointedAutomation.Serialization",
+        "version": "1.0.0",
+        "description": "Shared serialization helpers: naming rules (camel, Pascal, snake and the hybrid value/reference casing rule), System.Text.Json casing convention, presets and UTC DateTime converter, tolerant Newtonsoft.Json converters, and lenient JsonElement readers. No MongoDB dependency.",
+        "url": "https://www.nuget.org/packages/AnointedAutomation.Serialization",
+        "install": "dotnet add package AnointedAutomation.Serialization"
+      },
+      {
+        "id": "AnointedAutomation.Shopify",
+        "version": "1.0.0",
+        "description": "Plain Newtonsoft.Json POCO models for the Shopify Admin REST API (customers, orders, products, fulfillments, inventory, refunds, transactions, webhooks and more), derived from ShopifySharp's REST entities. Models only: no HTTP client, no services, no GraphQL types.",
+        "url": "https://www.nuget.org/packages/AnointedAutomation.Shopify",
+        "install": "dotnet add package AnointedAutomation.Shopify"
+      },
+      {
+        "id": "AnointedAutomation.SSO",
+        "version": "1.0.2",
+        "description": "Sign in with Anointed Automation for ASP.NET Core: an OpenID Connect handler preset (authorization code + PKCE S256, verified email only), a back-channel logout endpoint with Logout Token validation and replay protection, and a fail-open session status client.",
+        "url": "https://www.nuget.org/packages/AnointedAutomation.SSO",
+        "install": "dotnet add package AnointedAutomation.SSO"
+      },
+      {
+        "id": "AnointedAutomation.SSO.UI",
+        "version": "1.0.0",
+        "description": "Front end for Sign in with Anointed Automation in ASP.NET Core: brand-styled sign-in and sign-out buttons as a Tag Helper (Razor Pages, MVC) and Blazor components, plus MapAnointedAutomationAuth() BFF routes (start, sign-out, user info). Cookie only, no tokens in the browser; sign-out also runs RP-initiated logout when the provider publishes end_session_endpoint.",
+        "url": "https://www.nuget.org/packages/AnointedAutomation.SSO.UI",
+        "install": "dotnet add package AnointedAutomation.SSO.UI"
+      },
+      {
+        "id": "AnointedAutomation.SSO.Owin",
+        "version": "1.0.0",
+        "description": "Sign in with Anointed Automation for classic ASP.NET (.NET Framework 4.7.2+, MVC 5 and Web Forms on OWIN/Katana): OpenID Connect middleware preset (code + PKCE S256, verified email only), back-channel logout with Logout Token validation and replay protection, a session status client, and a sign-in button for Razor and Web Forms.",
+        "url": "https://www.nuget.org/packages/AnointedAutomation.SSO.Owin",
+        "install": "dotnet add package AnointedAutomation.SSO.Owin"
+      },
+      {
+        "id": "AnointedAutomation.Templates",
+        "version": "1.0.0",
+        "description": "dotnet new templates: anointed-razor (Razor Pages) and anointed-blazor (Blazor Web App, interactive server), wired to AnointedAutomation.SSO and AnointedAutomation.SSO.UI with the client id and secret in user-secrets.",
+        "url": "https://www.nuget.org/packages/AnointedAutomation.Templates",
+        "install": "dotnet add package AnointedAutomation.Templates"
+      }
+    ],
+    "sign_in_kits": [
+      {
+        "id": "@anointedautomation/sso",
+        "ecosystem": "npm",
+        "version": "0.2.4",
+        "description": "Sign in with Anointed Automation: a dependency-free, server-only OpenID Connect client (authorization code + PKCE S256, state, nonce, RS256 ID token validation via JWKS) with Express and Web (Next.js App Router, Base44, Workers) adapters.",
+        "source": "https://github.com/AnointedAutomation/AnointedAutomation/tree/master/js/anointed-sso",
+        "registry": "https://www.npmjs.com/package/@anointedautomation/sso",
+        "install": "npm install @anointedautomation/sso"
+      },
+      {
+        "id": "@anointedautomation/sso-react",
+        "ecosystem": "npm",
+        "version": "0.1.1",
+        "description": "React companion for Sign in with Anointed Automation: an accessible sign-in button and a useAnointedSignIn hook that navigate the browser to the partner server's start route. No secrets client side.",
+        "source": "https://github.com/AnointedAutomation/AnointedAutomation/tree/master/js/anointed-sso-react",
+        "registry": "https://www.npmjs.com/package/@anointedautomation/sso-react",
+        "install": "npm install @anointedautomation/sso-react"
+      },
+      {
+        "id": "@anointedautomation/sso-next",
+        "ecosystem": "npm",
+        "version": "0.1.0",
+        "description": "Next.js App Router start, callback and back-channel logout route handlers built on @anointedautomation/sso.",
+        "source": "https://github.com/AnointedAutomation/AnointedAutomation/tree/master/js/anointed-sso-next",
+        "registry": "https://www.npmjs.com/package/@anointedautomation/sso-next",
+        "install": "npm install @anointedautomation/sso-next"
+      },
+      {
+        "id": "@anointedautomation/sso-vue",
+        "ecosystem": "npm",
+        "version": "0.1.0",
+        "description": "Vue 3 sign-in button and useAnointedSignIn composable that send the browser to the partner server's start route. No secrets client side.",
+        "source": "https://github.com/AnointedAutomation/AnointedAutomation/tree/master/js/anointed-sso-vue",
+        "registry": "https://www.npmjs.com/package/@anointedautomation/sso-vue",
+        "install": "npm install @anointedautomation/sso-vue"
+      },
+      {
+        "id": "@anointedautomation/sso-nuxt",
+        "ecosystem": "npm",
+        "version": "0.1.0",
+        "description": "Nuxt server routes (start, callback, logout, back-channel logout) built on @anointedautomation/sso. Server only.",
+        "source": "https://github.com/AnointedAutomation/AnointedAutomation/tree/master/js/anointed-sso-nuxt",
+        "registry": "https://www.npmjs.com/package/@anointedautomation/sso-nuxt",
+        "install": "npm install @anointedautomation/sso-nuxt"
+      },
+      {
+        "id": "@anointedautomation/sso-angular",
+        "ecosystem": "npm",
+        "version": "0.1.0",
+        "description": "Angular standalone sign-in button, AnointedSignInService and provideAnointedSignIn() that send the browser to the partner server's start route. No secrets client side.",
+        "source": "https://github.com/AnointedAutomation/AnointedAutomation/tree/master/js/anointed-sso-angular",
+        "registry": "https://www.npmjs.com/package/@anointedautomation/sso-angular",
+        "install": "npm install @anointedautomation/sso-angular"
+      },
+      {
+        "id": "@anointedautomation/sso-sveltekit",
+        "ecosystem": "npm",
+        "version": "0.1.0",
+        "description": "SvelteKit start, callback, logout and back-channel logout handlers (handle hook or +server.js) built on @anointedautomation/sso, plus a sign-in button (./client).",
+        "source": "https://github.com/AnointedAutomation/AnointedAutomation/tree/master/js/anointed-sso-sveltekit",
+        "registry": "https://www.npmjs.com/package/@anointedautomation/sso-sveltekit",
+        "install": "npm install @anointedautomation/sso-sveltekit"
+      },
+      {
+        "id": "@anointedautomation/sso-react-native",
+        "ecosystem": "npm",
+        "version": "0.1.0",
+        "description": "React Native and Expo sign-in button and useAnointedSignIn hook: open the partner server's start route in a system auth session and read the deep-link callback. No secrets in the app.",
+        "source": "https://github.com/AnointedAutomation/AnointedAutomation/tree/master/js/anointed-sso-react-native",
+        "registry": "https://www.npmjs.com/package/@anointedautomation/sso-react-native",
+        "install": "npm install @anointedautomation/sso-react-native"
+      },
+      {
+        "id": "anointedautomation-sso",
+        "ecosystem": "PyPI",
+        "version": "0.1.0",
+        "description": "Server-side OpenID Connect kit (code + PKCE) for Python with Django, FastAPI/Starlette and Flask adapters, back-channel logout and a session status client.",
+        "source": "https://github.com/AnointedAutomation/AnointedAutomation/tree/master/python/anointed-sso",
+        "registry": "https://pypi.org/project/anointedautomation-sso/",
+        "install": "pip install anointedautomation-sso"
+      },
+      {
+        "id": "anointedautomation/sso",
+        "ecosystem": "Packagist",
+        "description": "Sign in with Anointed Automation for PHP and Laravel: code + PKCE S256, ID token verification, logout and back-channel logout.",
+        "source": "https://github.com/AnointedAutomation/AnointedAutomation/tree/master/php/anointed-sso",
+        "registry": "https://packagist.org/packages/anointedautomation/sso",
+        "version": "0.1.1",
+        "install": "composer require anointedautomation/sso"
+      },
+      {
+        "id": "AnointedSSO",
+        "ecosystem": "Swift Package Manager",
+        "version": "0.1.1",
+        "description": "Sign in with Anointed Automation for iOS and macOS apps: opens the partner's own server start route in ASWebAuthenticationSession; the server (using @anointedautomation/sso) keeps the client secret and redirects back. State check and SwiftUI button included.",
+        "source": "https://github.com/AnointedAutomation/AnointedAutomation/tree/master/swift/AnointedSSO",
+        "install": ".package(url: \"https://github.com/AnointedAutomation/AnointedAutomation\", from: \"0.1.1\")"
+      },
+      {
+        "id": "com.anointedautomation:anointedsso",
+        "ecosystem": "Android (Maven)",
+        "description": "Sign in with Anointed Automation for Android 7.0+ (Kotlin, Custom Tabs, Compose button). The app opens the partner's own server start route; the server keeps the client secret.",
+        "source": "https://github.com/AnointedAutomation/AnointedAutomation/tree/master/android/AnointedSSO",
+        "version": "0.1.1",
+        "install": "implementation(\"com.anointedautomation:anointedsso:0.1.1\")",
+        "registry": "https://central.sonatype.com/artifact/com.anointedautomation/anointedsso"
+      }
+    ]
+  },
+  "llms_txt": "https://anointed.company/llms.txt"
 }
