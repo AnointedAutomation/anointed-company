@@ -13,7 +13,7 @@ Machine-readable version: https://anointed.company/llms.json
 
 ## Open source
 
-- [GitHub repository](https://github.com/AnointedAutomation/AnointedAutomation): MIT-licensed libraries by Anointed Automation, LLC
+- [GitHub repository](https://github.com/AnointedAutomation/AnointedAutomation): MIT-licensed libraries by Anointed Automation Corporation
 - [Open source overview](https://www.anointedautomation.net/open-source)
 - [Sign in with Anointed Automation, developer guide](https://www.anointedautomation.net/developers/sign-in)
 - [Repository llms.txt](https://github.com/AnointedAutomation/AnointedAutomation/blob/master/llms.txt): full package list with install commands

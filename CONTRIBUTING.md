@@ -7,7 +7,7 @@ Jesus is King ✝️
 Every source file starts with the Anointed copyright line, using the comment syntax of its language, and it always ends with "Jesus is King ✝️". In HTML it goes right after `<!doctype html>`:
 
 ```html
-<!-- Copyright © Anointed Automation, LLC., 2026. All Rights Reserved. Stewarded by Alexander Fields https://www.alexanderfields.me Jesus is King ✝️ -->
+<!-- Copyright © Anointed Automation Corporation., 2026. All Rights Reserved. Stewarded by Alexander Fields https://www.alexanderfields.me Jesus is King ✝️ -->
 ```
 
 - JS/TS: `// ...`. CSS: `/* ... */`. Shell and YAML: `# ...`.
