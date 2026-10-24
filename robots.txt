@@ -8,5 +8,6 @@ Allow: /
 Sitemap: https://anointed.company/sitemap.xml
 Sitemap: https://store.anointed.company/sitemap.xml
 
-# AI / LLM agents — see llms.json for a structured description of the site.
+# AI / LLM agents: see llms.txt (readable) and llms.json (structured) for a description of the site.
+# https://anointed.company/llms.txt
 # https://anointed.company/llms.json
