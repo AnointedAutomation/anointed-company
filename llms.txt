@@ -8,8 +8,8 @@ Machine-readable version: https://anointed.company/llms.json
 
 ## Ventures
 
-- [Anointed Online Store](https://anointedattireapparel.com): faith-rooted apparel and gifts, made to order. Also at https://store.anointed.company
-- [Anointed Automation](https://anointedautomation.net): custom integrations, automations and development consulting for small businesses
+- [Anointed Online Store](https://store.anointed.company/): faith-rooted apparel and gifts, made to order
+- [Anointed Automation](https://www.anointedautomation.net/): custom integrations, automations and development consulting for small businesses
 
 ## Open source
 
