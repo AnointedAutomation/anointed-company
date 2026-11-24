@@ -11,7 +11,7 @@
     {
       "name": "Anointed Online Store",
       "category": "Online Store",
-      "url": "https://anointedattireapparel.com",
+      "url": "https://store.anointed.company/",
       "description": "Faith-rooted apparel and gifts: streetwear, hats, hoodies, tees and more, made to order.",
       "tags": [
         "online store",
@@ -25,7 +25,7 @@
     {
       "name": "Anointed Automation",
       "category": "Software Consulting",
-      "url": "https://anointedautomation.net",
+      "url": "https://www.anointedautomation.net/",
       "description": "Custom integrations, automations and development consulting for small businesses, plus open-source SDKs and Sign in with Anointed Automation kits.",
       "tags": [
         "software",
@@ -43,12 +43,12 @@
   "portal_links": [
     {
       "title": "Anointed Online Store - Visit Shop",
-      "url": "https://anointedattireapparel.com",
+      "url": "https://store.anointed.company/",
       "type": "external"
     },
     {
       "title": "Anointed Automation - Visit Site",
-      "url": "https://anointedautomation.net",
+      "url": "https://www.anointedautomation.net/",
       "type": "external"
     },
     {
